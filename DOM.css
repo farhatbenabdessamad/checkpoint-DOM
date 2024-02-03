@@ -1,0 +1,117 @@
+body {
+    background-image: url('pngtree-fruits-and-vegetables-picture-image_555942.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.like-btn {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.plus-btn,
+.minus-btn {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.quantity-value {
+    font-size: 2.5rem;
+    color: brown;
+}
+
+.price {
+    margin-left: auto;
+    font-size: 2.5rem;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+#carouselExampleFade {
+    width: 100%;
+    margin-right: 50px;
+    height: 600px;
+}
+
+.carousel-item img {
+    width: 50%;
+    height: 600px;
+}
+
+.cart {
+    height: 400px;
+    width: 800px;
+
+}
+
+.item {
+    width: 750px;
+    border: 4px solid;
+    border-color: black;
+    font-size: 30px;
+    margin-left: 10rem;
+}
+
+.center-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 600px;
+
+}
+
+.item img {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: #ccc;
+
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa-solid {
+    font-size: 3rem;
+    
+}
+
+.delete-btn {
+    font-size: 2.5rem;
+    color: rgb(211, 22, 22);
+}
